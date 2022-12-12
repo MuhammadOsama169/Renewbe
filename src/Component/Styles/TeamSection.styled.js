@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import marina from '../../assets/images/marina-photo.png';
 import muhammad from '../../assets/images/muhammad-photo.png';
 import juxhina from '../../assets/images/juxhina-photo.png';
