@@ -39,25 +39,3 @@ export const Logo = styled(Link)`
     margin-left: 0px;
   }
 `;
-
-export const Button = styled.a`
-  width: 250px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #b33030;
-  border-radius: 63px;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  color: #f2f2f2;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  padding: 10px;
-  text-decoration: none;
-  &:hover {
-    opacity: 0.9;
-  }
-`;
