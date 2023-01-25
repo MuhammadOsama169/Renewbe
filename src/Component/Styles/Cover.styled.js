@@ -139,8 +139,13 @@ export const Button = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #b33030;
-  border-radius: 63px;
+  background: linear-gradient(
+    180deg,
+    hsla(280, 84%, 41%, 1) 0%,
+    hsla(218, 97%, 56%, 1) 100%
+  );
+  margin-top: 15px;
+  border-radius: 15px;
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
   font-style: normal;

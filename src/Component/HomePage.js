@@ -8,7 +8,6 @@ import { Section5 } from './Section5';
 import { Section6 } from './Section6';
 import { Banner } from './Banner';
 import { TeamSection } from './TeamSection';
-
 export const HomePage = () => {
   return (
     <>
