@@ -27,7 +27,6 @@ export const GooglyEyes = () => {
   return (
     <Eyesfollowtired>
       <Container>
-        <Eyelid />
         <Eyes>
           <Eye id="left-eye" style={{ transform: rotateLeftEye }}>
             <Pupil />
