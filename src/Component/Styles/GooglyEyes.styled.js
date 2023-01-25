@@ -1,22 +1,32 @@
 import styled from 'styled-components';
+import MascotImg from '../../assets/images/mascot.png';
 
 export const Eyesfollowtired = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
-
-  background: linear-gradient(45deg, #FF2CAA 0%, #ffff01 100%);
-  border: .2em solid #4a2701;
-  border-radius: 50%;
-  box-shadow: -25px 0 rgba(0,0,0,0.1);
-  margin: auto;
+  background-image: url(${MascotImg});
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  display: flex;
 }
 `;
+export const Mascot = styled.div`
+  background-image: url(${MascotImg});
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  display: flex;
 
-export const Mouth = styled.div``;
+  @media screen and (max-width: 900px) {
+    width: 100vw;
+    height: 100vh;
+    background-size: fit;
+  }
+`;
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -24,13 +34,14 @@ export const Container = styled.div`
   align-items: center;
   position: relative;
 `;
-export const Eyelid = styled.div``;
+
 export const Eyes = styled.div`
   position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  top: 120px;
 `;
 export const Eye = styled.div`
   border-radius: 50%;

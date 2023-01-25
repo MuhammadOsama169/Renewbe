@@ -7,7 +7,7 @@ import RENEWBE from '../../assets/images/LogoName.png';
 export const MainContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 
   @media screen and (max-width: 900px) {
     display: flex;
@@ -52,6 +52,7 @@ export const Text = styled.div`
   color: #ffffff;
   padding-top: 20px;
   text-align: center;
+  margin-bottom: 20px;
 
   @media screen and (max-width: 900px) {
     font-size: 28px;
@@ -155,7 +156,10 @@ export const Button = styled.a`
   cursor: pointer;
   padding: 10px;
   text-decoration: none;
+
   &:hover {
     opacity: 0.9;
+    transform: scale(1.1);
+    transition: 0.5s;
   }
 `;
